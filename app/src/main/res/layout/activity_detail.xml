@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <ImageView
+            android:id="@+id/img_dog"
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:layout_marginTop="56dp"
+            android:contentDescription="@string/img_dog_content_description"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bella" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/secondary_text_light"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_dog"
+            tools:text="Bella" />
+
+        <TextView
+            android:id="@+id/tv_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_name"
+            tools:text="Female" />
+
+        <Button
+            android:id="@+id/action_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="@string/btn_share"
+            app:icon="@drawable/ic_action_share"
+            app:iconPadding="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/img_dog"
+            app:strokeColor="@color/purple_500"
+            app:strokeWidth="3dp" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:elegantTextHeight="false"
+            android:lineSpacingExtra="1sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textAlignment="viewStart"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_gender"
+            tools:text="Charlie loves spending time with his family and enjoys playing fetch in the backyard. He has a soft, fluffy coat that requires regular grooming to keep it looking and feeling healthy. Charlie is a quick learner and has mastered basic obedience commands, making him a well-behaved companion. He's also a social dog and gets along well with other animals and people, making him a joy to be around. Whether snuggling up on the couch or going for a long walk, Charlie's loving and loyal nature makes him a cherished member of the family." />
+
+        <TextView
+            android:id="@+id/tv_label_breed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/tv_label_breed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_description" />
+
+        <TextView
+            android:id="@+id/tv_breed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="3dp"
+            android:paddingEnd="16dp"
+            android:textColor="@android:color/primary_text_light_nodisable"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/tv_age"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_label_breed"
+            tools:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" />
+
+        <TextView
+            android:id="@+id/tv_label_activity_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/tv_label_activity_level"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_breed" />
+
+        <TextView
+            android:id="@+id/tv_activity_level"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="3dp"
+            android:paddingEnd="16dp"
+            android:textColor="@android:color/primary_text_light_nodisable"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_label_activity_level"
+            tools:text="Cavalier King Charles Spaniel" />
+
+        <TextView
+            android:id="@+id/tv_label_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/tv_label_age"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/tv_description" />
+
+        <TextView
+            android:id="@+id/tv_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textColor="@android:color/primary_text_light_nodisable"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/tv_label_age"
+            tools:text="3 years old" />
+
+        <TextView
+            android:id="@+id/tv_label_personality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/tv_label_personality"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/tv_age" />
+
+        <TextView
+            android:id="@+id/tv_personality"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:paddingEnd="16dp"
+            android:textColor="@android:color/primary_text_light_nodisable"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/tv_label_personality"
+            tools:text="Confident, Cheerful, Sometimes annoying" />
+
+        <TextView
+            android:id="@+id/tv_label_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/tv_label_size"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/tv_personality" />
+
+        <TextView
+            android:id="@+id/tv_size"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textColor="@android:color/primary_text_light_nodisable"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/tv_label_size"
+            tools:text="Medium" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="188dp" />
+
+        <Button
+            android:id="@+id/btn_adopt"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/btn_adopt"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_size" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

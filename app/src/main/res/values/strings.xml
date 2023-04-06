@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">Doggy Lover</string>
+
+    <string name="img_dog_content_description">an image of a dog</string>
+    <string name="tv_label_breed">Breed</string>
+    <string name="tv_label_activity_level">Activity Level</string>
+    <string name="tv_label_age">Age</string>
+    <string name="tv_label_personality">Personality</string>
+    <string name="tv_label_size">Size</string>
+    <string name="btn_adopt">Adopt</string>
+    <string name="btn_share">Share</string>
+    <string name="menu_about">About</string>
+    <string name="tv_about_page_name">Henly Forbesly</string>
+    <string name="tv_about_page_hobby">🏓 I love design and coding</string>
+    <string name="tv_about_page_email">✉ ️henlyforbesly01@gmail.com</string>
+    <string name="tv_about_page_position">🖼️ Front-End Developer</string>
+    <string name="tv_about_page_location">🇮🇩 Medan, Indonesia</string>
+    <string name="btn_about_page_instagram">Visit Instagram</string>
+
+    <string-array name="data_name">
+        <item>Charlie</item>
+        <item>Teddy</item>
+        <item>Cooper</item>
+        <item>Bella</item>
+        <item>Daisy</item>
+        <item>Gizmo</item>
+        <item>Luna</item>
+        <item>Milo</item>
+        <item>Sophie</item>
+        <item>Rocky</item>
+        <item>Max</item>
+        <item>Lulu</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Charlie loves spending time with his family and enjoys playing fetch in the backyard. He has a soft, fluffy coat that requires regular grooming to keep it looking and feeling healthy. Charlie is a quick learner and has mastered basic obedience commands, making him a well-behaved companion. He\'s also a social dog and gets along well with other animals and people, making him a joy to be around. Whether snuggling up on the couch or going for a long walk, Charlie\'s loving and loyal nature makes him a cherished member of the family.</item>
+        <item>Teddy has a fluffy coat that requires regular grooming to maintain its shape and texture, and he often sports a cute haircut that highlights his adorable features. Teddy is a friendly and affectionate dog, who loves nothing more than curling up in his owner\'s lap for a good snuggle. He\'s a social dog who enjoys playing with other dogs, but he\'s also content to spend time alone with his favorite human. Despite his small size, Teddy can be a confident and courageous companion, ready to protect his family when needed. With his sweet personality and charming looks, Teddy is a popular choice for those looking for a loyal and loving companion.</item>
+        <item>Cooper loves spending time with his family and enjoys going on long walks or runs. He has a sleek, shiny coat that is easy to maintain with regular grooming, and he\'s always up for a game of fetch or tug-of-war. Cooper is a social dog who loves meeting new people and other dogs, and his friendly nature often makes him a hit with everyone he meets. He\'s a quick learner and has mastered many tricks and commands, making him a well-behaved and obedient companion. With his happy-go-lucky personality and love of adventure, Cooper is a beloved member of his family and brings joy and laughter to everyone he meets.</item>
+        <item>Bella has a soft and fluffy coat that requires regular grooming to keep her looking her best. Bella is a gentle and affectionate dog who loves to be near her family and enjoys cuddling up on laps or next to her humans. She\'s a social dog who enjoys the company of other dogs and people, and she\'s often eager to make new friends. Bella is a quick learner and responds well to positive reinforcement training, making her a well-behaved companion. She can be sensitive and may require extra attention and patience from her family, but her loyalty and love make it all worth it. With her gentle and loving nature, Bella is a cherished member of her family and brings joy and comfort to those around her.</item>
+        <item>Daisy is a social dog who loves to play and spend time with her family, whether it\'s going for a walk, playing fetch, or just snuggling up on the couch. She\'s often eager to make new friends, whether they\'re people or other dogs, and her outgoing personality makes her a joy to be around. Daisy is a quick learner and responds well to positive reinforcement training, making her a well-behaved companion. She can be energetic and may require plenty of exercise and stimulation, but her fun-loving and affectionate nature make it all worth it. With her playful and cheerful personality, Daisy is a beloved member of her family and brings happiness and laughter to those around her.</item>
+        <item>Gizmo are highly intelligent and energetic dogs that require a lot of mental and physical stimulation to stay happy and healthy. They are known for their athleticism, work ethic, and trainability, and are often used for working roles such as herding, search and rescue, and competitive sports. Gizmo are loyal and affectionate towards their owners, but can be wary of strangers and protective of their family. They are reserved with new people but form strong bonds with their owners and enjoy being involved in their daily activities. Luna have a high energy level and require regular exercise and mental stimulation to stay happy and healthy.</item>
+        <item>Luna are friendly and affectionate dogs that enjoy being around their owners. They are known for their gentle nature and are great with children and other pets. Luna are also known for their loyalty and make great watchdogs, as they are protective of their family.</item>
+        <item>Milo are a small to medium-sized breed of dog that originated in Japan. They are known for their independent and spirited personalities and are often described as "cat-like" due to their aloof nature. Milo are highly intelligent dogs and can be trained easily with positive reinforcement methods. Milo require daily exercise and mental stimulation to stay happy and healthy. They are active dogs and enjoy activities such as hiking, running, and playing games. They can also be prone to certain health issues such as allergies and hip dysplasia, so it is important to provide them with proper care and regular vet check-ups.</item>
+        <item>Sophie are known for their active and playful personalities, and they love to be around people. They are social dogs and thrive on attention and affection from their owners. They are intelligent and trainable, and enjoy participating in obedience, agility, and other dog sports. Sophie are also loyal and protective of their family, and can be wary of strangers. They are generally good with children and other pets, although they can be reserved with strangers. Sophie require regular grooming to keep their coat looking neat and healthy. They are also an active breed that requires daily exercise and mental stimulation to prevent boredom and destructive behavior.</item>
+        <item>Rocky are loyal and affectionate towards their owners, but can sometimes be reserved with new people. They are often protective of their family and can be vocal when they sense a threat or danger. Despite their small size, Rocky have a big personality and are often described as being spunky and playful. Rocky do require exercise and mental stimulation to stay healthy and happy, but their exercise needs are moderate compared to other breeds. They do well in a variety of living situations, from apartments to larger homes, as long as they receive plenty of love, attention, and exercise.</item>
+        <item>Max are a small breed of dog known for their playful and outgoing personalities. They are loyal and affectionate towards their owners and are often described as spunky and confident dogs. Max are known for their intelligence and can be easily trained with positive reinforcement methods. Max can be wary of strangers and may bark to alert their owners to any perceived threats. They also tend to be quite vocal and will bark to get their owner\'s attention or when they feel excited or anxious.</item>
+        <item>Lulu are generally good with children and make great family pets. They are not typically aggressive towards other dogs or animals, and can get along well with them if properly socialized from a young age. Lulu have a long, silky coat that requires regular grooming to prevent matting and tangling. They are a low-shedding breed, which makes them a good option for people with allergies. Lulu are intelligent dogs that can be trained easily with positive reinforcement methods. They are also known for their adaptability and can live in apartments or houses with small yards. Lulu enjoy being close to their owners and require a lot of attention and affection from them.</item>
+    </string-array>
+
+    <string-array name="data_activity_level">
+        <item>Active. Enjoy walking outside</item>
+        <item>Active. Enjoy playing various games</item>
+        <item>Medium. Like to play games</item>
+        <item>Medium. Like to stay at house</item>
+        <item>Active. But prefer staying at home with owners</item>
+        <item>Active. Like to play games</item>
+        <item>Active. Enjoy playing various games</item>
+        <item>Medium. Like to stay at house</item>
+        <item>Active. Like to play games</item>
+        <item>Active. But prefer staying at home with owners</item>
+        <item>Medium. Like to stay at house</item>
+        <item>Medium. Like to stay at house</item>
+    </string-array>
+
+    <string-array name="data_personality">
+        <item>Extrovert. Friendly. Sociable. Intelligent. Playful &amp; Energetic</item>
+        <item>Gentle. Loving. Enjoy being around people and other dogs</item>
+        <item>Playful. Intelligent. Curious</item>
+        <item>Easy to train. Energetic. Playful. Sweet</item>
+        <item>Affectionate. Great companion. Bold. Confident</item>
+        <item>Extrovert. Friendly. Sociable. Intelligent. Playful &amp; Energetic</item>
+        <item>Affectionate. Great companion. Bold. Confident</item>
+        <item>Easy to train. Energetic. Playful. Sweet</item>
+        <item>Playful. Intelligent. Curious</item>
+        <item>Extrovert. Friendly. Sociable. Intelligent. Playful &amp; Energetic</item>
+        <item>Affectionate. Great companion. Bold. Confident</item>
+        <item>Gentle. Loving. Enjoy being around people and other dogs</item>
+    </string-array>
+
+    <string-array name="data_size">
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Small</item>
+        <item>Small</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Medium</item>
+        <item>Small</item>
+        <item>Small</item>
+        <item>Small</item>
+        <item>Small</item>
+    </string-array>
+
+    <string-array name="data_gender">
+        <item>Male</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Female</item>
+    </string-array>
+
+    <integer-array name="data_age">
+        <item>4</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>3</item>
+        <item>2</item>
+        <item>2</item>
+        <item>3</item>
+        <item>2</item>
+    </integer-array>
+
+    <string-array name="data_breed">
+        <item>Pembroke Welsh Corgi</item>
+        <item>Golden Retriever</item>
+        <item>Pug</item>
+        <item>Pug</item>
+        <item>Cavalier King Charles Spaniel</item>
+        <item>Yorkshire Terrier</item>
+        <item>Border Collies</item>
+        <item>Samoyeds</item>
+        <item>Shiba Inus</item>
+        <item>Poodle</item>
+        <item>Dachshund</item>
+        <item>Pomeranian</item>
+        <item>Maltese</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/charlie</item>
+        <item>@drawable/teddy</item>
+        <item>@drawable/cooper</item>
+        <item>@drawable/bella</item>
+        <item>@drawable/daisy</item>
+        <item>@drawable/gizmo</item>
+        <item>@drawable/luna</item>
+        <item>@drawable/milo</item>
+        <item>@drawable/sophie</item>
+        <item>@drawable/rocky</item>
+        <item>@drawable/max</item>
+        <item>@drawable/lulu</item>
+    </integer-array>
+</resources>
